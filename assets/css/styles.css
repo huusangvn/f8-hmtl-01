@@ -52,6 +52,9 @@ a {
 }
 /* =============Header================ */
 .hero-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
   height: calc(100vh - 90px);
   background-color: #e6f0ff;
@@ -98,9 +101,6 @@ a {
   padding: 0.8rem 1.4rem;
 }
 /* Hero */
-.hero {
-  padding-top: 130px;
-}
 
 .hero .info {
   max-width: 51%;
